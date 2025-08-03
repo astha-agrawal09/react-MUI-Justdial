@@ -16,19 +16,19 @@ import "slick-carousel/slick/slick-theme.css";
 
 const carouselItems = [
   {
-    img: "public/banner_bills.webp",
+    img: "/banner_bills.webp",
     background: "#eaf7ff",
   },
   {
-    img: "public/banner_easemytrip.webp",
+    img: "/banner_easemytrip.webp",
     background: "#fff7e6",
   },
   {
-    img: "public/banner_hotels.webp",
+    img: "/banner_hotels.webp",
     background: "#e8fff1",
   },
   {
-    img: "public/banner_loans.webp",
+    img: "/banner_loans.webp",
     background: "#eaf7ff",
   }
 ];
@@ -118,7 +118,7 @@ export default function Home() {
         {
             title: "Wedding Requisites",
             items: [
-                { title: "Banquet Halls", image: "/public/banquethalls.webp" },
+                { title: "Banquet Halls", image: "/banquethalls.webp" },
                 { title: "Bridal Requisite", image: "/public/bridalrequisite.webp" },
                 { title: "Caterers", image: "/public/caterers.webp" },
             ],
@@ -126,25 +126,25 @@ export default function Home() {
         {
             title: "Beauty & Spa",
             items: [
-                { title: "Beauty Parlours", image: "/public/beautyparlours.webp" },
-                { title: "Spa & Massages", image: "/public/spamassages.webp" },
-                { title: "Salons", image: "/public/salons.webp" },
+                { title: "Beauty Parlours", image: "/beautyparlours.webp" },
+                { title: "Spa & Massages", image: "/spamassages.webp" },
+                { title: "Salons", image: "/salons.webp" },
             ],
         },
         {
             title: "Repairs & Services",
             items: [
-                { title: "AC Service", image: "/public/acrepair.webp" },
-                { title: "Car Service", image: "/public/carservice.webp" },
-                { title: "Bike Service", image: "/public/bikeservice.webp" },
+                { title: "AC Service", image: "/acrepair.webp" },
+                { title: "Car Service", image: "/carservice.webp" },
+                { title: "Bike Service", image: "/bikeservice.webp" },
             ],
         },
         {
             title: "Daily Needs",
             items: [
-                { title: "Movies", image: "/public/movies.webp" },
-                { title: "Grocery", image: "/public/grocery.webp" },
-                { title: "Electricians", image: "/public/electricians.webp" },
+                { title: "Movies", image: "/movies.webp" },
+                { title: "Grocery", image: "/grocery.webp" },
+                { title: "Electricians", image: "/electricians.webp" },
             ],
         },
     ];
