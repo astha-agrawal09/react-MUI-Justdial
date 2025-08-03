@@ -119,8 +119,8 @@ export default function Home() {
             title: "Wedding Requisites",
             items: [
                 { title: "Banquet Halls", image: "/banquethalls.webp" },
-                { title: "Bridal Requisite", image: "/public/bridalrequisite.webp" },
-                { title: "Caterers", image: "/public/caterers.webp" },
+                { title: "Bridal Requisite", image: "/bridalrequisite.webp" },
+                { title: "Caterers", image: "/caterers.webp" },
             ],
         },
         {
